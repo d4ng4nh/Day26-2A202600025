@@ -36,8 +36,8 @@ Giải thích NĐ 13/2023 bảo vệ dữ liệu cá nhân của Việt Nam — 
 
 ## Phân chia screenshot
 
-- Sản phẩm A (Perplexity) → Thành viên 2 phụ trách chụp
-- Sản phẩm B (ChatGPT) → Thành viên 2 phụ trách chụp
+- Sản phẩm A (ChatGPT) → Thành viên 1 phụ trách chụp
+- Sản phẩm B (Perplexity) → Thành viên 1 phụ trách chụp
 
 ---
 
