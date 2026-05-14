@@ -17,27 +17,27 @@ File này khai báo 2 thành viên trong nhóm + phân công thực hiện.
 
 | # | Mã học viên | Họ tên đầy đủ | Phân công chính |
 |---|---|---|---|
-| 1 | A20-XXXXX | [...] | [...] |
-| 2 | A20-XXXXX | [...] | [...] |
+| 1 | 2A202600025 | Đặng Tuấn Anh | Viết nội dung S1-S2, chụp ảnh screenshot |
+| 2 | 2A202600480 |Nguyễn Đức Duy | Viết nội dung S3-S5 |
 
 ---
 
 ## Nhiệm vụ thử nghiệm chung
 
-[Mô tả 1-2 câu nhiệm vụ chung mà cả 2 thành viên cùng test trên 2 sản phẩm. Ví dụ: "Viết bản tóm tắt 200 từ về tác động của AI lên ngành ed-tech, có dẫn nguồn."]
+Giải thích NĐ 13/2023 bảo vệ dữ liệu cá nhân của Việt Nam — áp dụng cho startup AI thế nào? Cho tôi 3 điều quan trọng nhất phải làm.
 
-**Ngành chọn**: [A — Tìm kiếm / B — Lập trình / C — Viết lách / D — Nghiên cứu]
+**Ngành chọn**: [A] — Tìm kiếm
 
-**Sản phẩm A**: [tên + URL]
+**Sản phẩm A**: Perplexity (https://www.perplexity.ai/)
 
-**Sản phẩm B**: [tên + URL]
+**Sản phẩm B**: ChatGPT Search (https://chatgpt.com/)
 
 ---
 
 ## Phân chia screenshot
 
-- Sản phẩm A → [Mã học viên nào phụ trách chụp]
-- Sản phẩm B → [Mã học viên nào phụ trách chụp]
+- Sản phẩm A (Perplexity) → Thành viên 2 phụ trách chụp
+- Sản phẩm B (ChatGPT) → Thành viên 2 phụ trách chụp
 
 ---
 
