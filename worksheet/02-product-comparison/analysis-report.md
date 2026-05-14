@@ -6,7 +6,7 @@ paginate: true
 
 # Lab 2: Phân tích so sánh Sản phẩm AI (Ngành Tìm kiếm)
 ## Perplexity Pro Search vs ChatGPT Search
-**Thành viên:** [Điền mã học viên 1] & [Điền mã học viên 2]
+**Thành viên:** 2A202600025 & 2A202600480
 **Nhiệm vụ chung:** "Giải thích NĐ 13/2023 bảo vệ dữ liệu cá nhân của Việt Nam — áp dụng cho startup AI thế nào? Cho tôi 3 điều quan trọng nhất phải làm."
 
 ---
@@ -15,11 +15,11 @@ paginate: true
 
 ### Perplexity
 *   **Entry Point**: Giao diện tối giản tập trung hoàn toàn vào ô tìm kiếm ("Where knowledge begins"). Trải nghiệm người dùng được thiết kế chuyên biệt cho việc tra cứu thông tin (Search-first).
-*   ![Perplexity Entry](screenshots/perplexity-1-entry.png)
+*   ![Perplexity Entry](screenshots/product-A-2-entry-input.png)
 
 ### ChatGPT Search
 *   **Entry Point**: Giao diện chat truyền thống với biểu tượng "Web Search" tích hợp. Trải nghiệm được thiết kế theo hướng hội thoại (Chat-first), tính năng search đóng vai trò bổ trợ.
-*   ![ChatGPT Entry](screenshots/chatgpt-1-entry.png)
+*   ![ChatGPT Entry](screenshots/product-B-2-entry-input.png)
 
 ---
 
@@ -40,11 +40,11 @@ paginate: true
 ### Perplexity
 *   **Tín hiệu đáng tin (Trust signals)**: Rất cao. Luôn hiển thị cụ thể trích xuất thông tin nào từ website nào (ví dụ: Thư viện Pháp luật, Bộ Công An).
 *   Khả năng Hallucination thấp do bị ép bám sát vào Context thu hồi được từ web.
-*   ![Perplexity Output](screenshots/perplexity-3-output.png)
+*   ![Perplexity Output](screenshots/product-A-3-output.png)
 
 ### ChatGPT Search
 *   **Tín hiệu đáng tin**: Ở mức khá. Đôi khi model trộn lẫn kiến thức pre-training (đã học từ trước) với kiến thức Search được, khiến việc xác minh (verify) khó khăn hơn.
-*   ![ChatGPT Output](screenshots/chatgpt-3-output.png)
+*   ![ChatGPT Output](screenshots/product-B-3-output.png)
 
 ---
 
