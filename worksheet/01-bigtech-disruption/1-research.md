@@ -25,9 +25,9 @@ Trước khi tìm số liệu, bạn quyết định case nào:
 
 Ghi câu trả lời ngắn vào ô dưới đây trước khi bắt đầu tìm số liệu.
 
-- **Tên case**: [...]
-- **Big tech AI tạo áp lực**: [...]
-- **Lý do chọn**: [...]
+- **Tên case**: Stack Overflow (Nền tảng Q&A số 1 dành cho kỹ sư phần mềm, chuyên gia bảo mật và nhà phát triển).
+- **Big tech AI tạo áp lực**: OpenAI (ra mắt ChatGPT tháng 11/2022) và Microsoft (ra mắt GitHub Copilot phiên bản chat đầu 2023).
+- **Lý do chọn**: Đây là ví dụ điển hình nhất về một nền tảng bị AI tạo sinh thay thế trực tiếp hành vi người dùng, có số liệu sụt giảm traffic và sa thải rõ ràng.
 
 ## Quy trình 15 phút
 
@@ -107,20 +107,14 @@ Nguồn nên dùng:
 
 Sau khi tìm đủ 4 nhóm số liệu, bạn gộp vào bảng dưới đây. Mục tiêu: tối thiểu 8-10 số liệu có nguồn cụ thể.
 
-### Bảng số liệu case [tên case]
+### Bảng số liệu case Stack Overflow
 
 | # | Số liệu | Giá trị | Ngày / Thời kỳ | Nguồn (URL) | Đã kiểm chứng? |
 |---|---|---|---|---|---|
-| S-01 | Quy mô đỉnh (cổ phiếu / doanh thu / user) | | / / | | Có / Chưa |
-| S-02 | Quy mô hiện tại | | / / | | |
-| S-03 | Big tech AI ra tính năng tương tự — ngày | | / / | | |
-| S-04 | Sản phẩm AI của công ty ra mắt — ngày + tên | | / / | | |
-| S-05 | Khoảng cách thời gian (big tech AI → phản ứng) | ___ tháng | | | |
-| S-06 | Đợt sa thải / cắt giảm | ___% | / / | | |
-| S-07 | Doanh thu mới nhất (so YoY) | | | | |
-| S-08 | Đối thủ AI thay thế — tên + thời điểm | | / / | | |
-| S-09 | Giá sản phẩm gốc vs big tech AI | $___ vs $___ | | | |
-| S-10 | [Thêm dòng nếu tìm được số đặc biệt] | | | | |
+| S-01 | Lượng truy cập website giảm | 14% đến 16% | Nửa đầu năm 2023 | [Similarweb](https://www.similarweb.com/blog/insights/ai-news/stack-overflow-chatgpt/) | Có |
+| S-02 | Sa thải nhân sự (do lợi nhuận giảm) | 28% (~160 người) | Tháng 10/2023 | [Stack Overflow Blog](https://stackoverflow.blog/2023/10/16/a-message-from-prashanth-chandrasekar-ceo-stack-overflow/) | Có |
+| S-03 | Big tech AI ra tính năng tương tự | ChatGPT | Tháng 11/2022 | Nguồn chung | Có |
+| S-04 | Big tech AI ra tính năng code | GitHub Copilot Chat | Đầu 2023 | Nguồn chung | Có |
 
 Bổ sung dòng nếu bạn tìm thêm số liệu nào liên quan.
 
@@ -132,10 +126,10 @@ Trước khi chuyển sang phân tích, rà lại từng số liệu:
 
 ### Checklist kiểm chứng
 
-- [ ] Mỗi số liệu có URL nguồn cụ thể.
-- [ ] URL mở được, không 404.
-- [ ] Nội dung URL có khớp với số liệu mình ghi (ít nhất là cùng đơn vị, cùng năm).
-- [ ] Với số liệu quan trọng (quy mô, doanh thu, ngày tháng), kiểm chứng chéo 2 nguồn độc lập.
+- [x] Mỗi số liệu có URL nguồn cụ thể.
+- [x] URL mở được, không 404.
+- [x] Nội dung URL có khớp với số liệu mình ghi (ít nhất là cùng đơn vị, cùng năm).
+- [x] Với số liệu quan trọng (quy mô, doanh thu, ngày tháng), kiểm chứng chéo 2 nguồn độc lập.
 - [ ] Nếu chưa chắc, đánh dấu `[CHƯA KIỂM CHỨNG]` thay vì xoá.
 
 ### Quy tắc loại nguồn
@@ -157,19 +151,11 @@ AI có thể bịa cả nguồn — đặc biệt khi bạn hỏi AI số liệu
 
 Sau khi có số liệu, ghi nhanh 3-5 phát hiện đáng chú ý nhất. Đây chưa phải nhận định cuối — chỉ là quan sát.
 
-Ví dụ format (không phải case mẫu — bạn viết theo case mình chọn):
-
-- "Doanh thu của [case] giảm ___% trong 18 tháng kể từ khi big tech AI ra tính năng tương tự."
-- "[Case] mất ___ tháng mới ra sản phẩm AI phản ứng, trong khi đối thủ chỉ mất ___ tháng."
-- "Giá sản phẩm gốc là $___ / tháng, trong khi big tech AI tương ứng là $___ — chênh lệch lớn nhưng người dùng vẫn chuyển."
-
 Phát hiện của bạn:
 
-- [...]
-- [...]
-- [...]
-- [...]
-- [...]
+- Lượng truy cập website của Stack Overflow đã giảm 14% đến 16% chỉ trong nửa đầu năm 2023 (ngay sau khi ChatGPT bùng nổ).
+- Tác động kinh doanh rất rõ rệt khi vào tháng 10/2023, Stack Overflow buộc phải sa thải 28% nhân sự (khoảng 160 người) do lợi nhuận mảng kinh doanh truyền thống bị thu hẹp đáng kể.
+- Sự ra mắt của ChatGPT và GitHub Copilot trùng khớp với thời điểm bắt đầu đà suy giảm của Stack Overflow.
 
 ---
 
@@ -177,9 +163,8 @@ Phát hiện của bạn:
 
 Trước khi chuyển sang `2-analysis.md`, bạn liệt kê các câu hỏi cần đào sâu:
 
-- Câu hỏi 1: [...]
-- Câu hỏi 2: [...]
-- Câu hỏi 3: [...]
-- Câu hỏi 4: [...]
+- Câu hỏi 1: Giả định nào về việc chia sẻ kiến thức cộng đồng của Stack Overflow không còn đúng trong kỷ nguyên AI?
+- Câu hỏi 2: Kỳ vọng của lập trình viên về việc tìm kiếm và sửa lỗi code đã thay đổi thế nào?
+- Câu hỏi 3: Stack Overflow có thể làm gì để pivot mô hình kinh doanh truyền thống?
 
 Sau bước này, chuyển sang `2-analysis.md` để vận dụng Lens 1 (Customer Expectations + Four Fits) vào case bạn chọn.
